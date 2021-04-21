@@ -1,1 +1,6 @@
 dj-events-frontend/node_modules
+dj-events-frontend/.next/
+dj-events-frontend/out/
+dj-events-frontend/build
+dj-events-frontend/*pem
+dj-events-frontend/npm-debug.log
