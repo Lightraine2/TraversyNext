@@ -180,7 +180,7 @@ export default function EditEventPage({ evt }) {
         <ImageUpload
           evtId={evt.id}
           imageUploaded={imageUploaded}
-          token={token}
+        //  token={token}
         />
       </Modal>
     </Layout>
@@ -191,6 +191,7 @@ export async function getServerSideProps({ params: { id } }) {
  // const { token } = parseCookies(req)
 
   const res = await fetch(`${API_URL}/events/${id}`)
+  console.log(res)
   const evt = await res.json()
 
   return {
