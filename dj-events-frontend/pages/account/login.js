@@ -7,6 +7,7 @@ import Layout from '@/components/Layout'
 import AuthContext from '@/context/AuthContext'
 import styles from '@/styles/AuthForm.module.css'
 
+
 export default function LoginPage() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
